@@ -5,8 +5,8 @@ from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Alpha Vantage API key (replace with your own API key)
-api_key = 'A6LSQZQVHLFMU716'
+# Alpha Vantage API key 
+api_key = '' #You should add there Your Alpha Vatange API KEY
 
 # Function to fetch stock data from Alpha Vantage API
 def get_stock_data(symbol):
